@@ -45,7 +45,7 @@ setInterval(function() {
   date.getMinutes() + ' ' + declensionOfEndings(date.getMinutes(), 'минута', 'минуты', 'минут') + 
   ' ' + date.getSeconds() + ' ' + declensionOfEndings(date.getSeconds(), 'секунда', 'секунды', 'секунд'));
 
-  caseB.innerHTML = ('б) ' + checkZero(date.getDay()) + '.' + checkZero((date.getMonth() + 1)) +
+  caseB.innerHTML = ('б) ' + checkZero(date.getDate()) + '.' + checkZero((date.getMonth() + 1)) +
   '.' + date.getFullYear() + ' - ' + checkZero(date.getHours()) + ':' + 
   checkZero(date.getMinutes()) + ':' + checkZero(date.getSeconds()));
 
