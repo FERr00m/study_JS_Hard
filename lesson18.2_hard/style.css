@@ -1,0 +1,52 @@
+* {
+  font-size: x-large;
+}
+
+.body {
+  width: 1920px;
+  min-height: 1000px;
+}
+
+.mazda {
+  position: absolute;
+  top: 535px;
+  display: none;
+}
+
+.dps {
+  position: absolute;
+  top: 475px;
+  right: -25px;
+  transform: rotate(32deg);
+  display: none;
+}
+
+button {
+  border: 2px solid;
+  border-radius: 10px;
+  width: 100px;
+  padding: 10px;
+  position: absolute;
+  top: 300px;
+}
+
+#reset {
+  left: 935px;
+  background-color: blue;
+  color: aliceblue;
+}
+
+#stop, #start{
+  left: 835px;
+}
+
+#stop {
+  background-color: red;
+  color: aliceblue;
+  display: none;
+}
+
+#start {
+  background-color: green;
+  color: aliceblue;
+}
