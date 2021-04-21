@@ -16,7 +16,7 @@
 .dps {
   position: absolute;
   top: 475px;
-  right: -25px;
+  left: 1500px;
   transform: rotate(32deg);
   display: none;
 }
